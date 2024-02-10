@@ -1,0 +1,10 @@
+^C:\USERS\SAMMY\SOURCE\REPOS\RAYTRACERLEARNING\RAYTRACERLEARNING\BUILD\CMAKEFILES\C405E29EF1C7059A81A4B3034DE9CD1B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Sammy/source/repos/RayTracerLearning/RayTracerLearning -BC:/Users/Sammy/source/repos/RayTracerLearning/RayTracerLearning/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/Sammy/source/repos/RayTracerLearning/RayTracerLearning/build/RTWeekend.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

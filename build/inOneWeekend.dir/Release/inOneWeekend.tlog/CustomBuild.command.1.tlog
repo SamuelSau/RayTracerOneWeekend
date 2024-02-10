@@ -1,0 +1,10 @@
+^C:\USERS\SAMMY\SOURCE\REPOS\RAYTRACERLEARNING\RAYTRACERLEARNING\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/Sammy/source/repos/RayTracerLearning/RayTracerLearning -BC:/Users/Sammy/source/repos/RayTracerLearning/RayTracerLearning/build --check-stamp-file C:/Users/Sammy/source/repos/RayTracerLearning/RayTracerLearning/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

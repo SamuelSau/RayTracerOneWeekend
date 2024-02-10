@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Sammy\source\repos\RayTracerLearning\RayTracerLearning\src\InOneWeekend\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Sammy\source\repos\RayTracerLearning\RayTracerLearning\src\external\stb_image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Sammy\source\repos\RayTracerLearning\RayTracerLearning\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{5BD192D1-7C8F-315F-AEDD-F14D04567FB2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{976690FA-E710-31B1-9005-5E4C1778BFCB}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
