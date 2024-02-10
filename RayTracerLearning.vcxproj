@@ -134,6 +134,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\external\stb_image.h" />
+    <ClInclude Include="src\InOneWeekend\color.h" />
+    <ClInclude Include="src\InOneWeekend\vec3.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
