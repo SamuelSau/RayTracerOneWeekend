@@ -53,5 +53,8 @@
     <ClInclude Include="src\InOneWeekend\camera.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="src\InOneWeekend\material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -139,6 +139,7 @@
     <ClInclude Include="src\InOneWeekend\hittable.h" />
     <ClInclude Include="src\InOneWeekend\hittable_lists.h" />
     <ClInclude Include="src\InOneWeekend\interval.h" />
+    <ClInclude Include="src\InOneWeekend\material.h" />
     <ClInclude Include="src\InOneWeekend\ray.h" />
     <ClInclude Include="src\InOneWeekend\rtweekend.h" />
     <ClInclude Include="src\InOneWeekend\sphere.h" />
